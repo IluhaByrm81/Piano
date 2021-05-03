@@ -1,3 +1,17 @@
+html {
+	height: 100%;
+ }
+ 
+ body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(#403075, #882D61);
+ }
+
 .piano {
    width: 1000px;
    height: 400px;
@@ -63,9 +77,3 @@
 	left: 300px;
  }
  
- * {
-    background-color: rgb(204, 142, 60);
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   }
